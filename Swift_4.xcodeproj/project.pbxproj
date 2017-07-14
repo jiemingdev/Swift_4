@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CDE710549142522F68D509BA /* Pods_Swift_4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0836332C9548D0C10164CE65 /* Pods_Swift_4.framework */; };
+		E952F6591F1717EF0093891A /* TestNetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952F6581F1717EF0093891A /* TestNetViewController.swift */; };
+		E952F65D1F1726320093891A /* Swift_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E952F65C1F1726320093891A /* Swift_4.swift */; };
+		E9BA5CB21F15FEAC004383AD /* TestGrammarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA5CB11F15FEAC004383AD /* TestGrammarViewController.swift */; };
 		E9F6D2EB1F138510005A0551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6D2EA1F138510005A0551 /* AppDelegate.swift */; };
 		E9F6D2ED1F138510005A0551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6D2EC1F138510005A0551 /* ViewController.swift */; };
 		E9F6D2F01F138510005A0551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F6D2EE1F138510005A0551 /* Main.storyboard */; };
@@ -14,6 +18,7 @@
 		E9F6D2F51F138510005A0551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F6D2F31F138510005A0551 /* LaunchScreen.storyboard */; };
 		E9F6D3001F138510005A0551 /* Swift_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6D2FF1F138510005A0551 /* Swift_4Tests.swift */; };
 		E9F6D30B1F138510005A0551 /* Swift_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6D30A1F138510005A0551 /* Swift_4UITests.swift */; };
+		E9F6D31D1F14D7A2005A0551 /* TestUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6D31C1F14D7A2005A0551 /* TestUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0836332C9548D0C10164CE65 /* Pods_Swift_4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E9A40D772DA5A00AA7F776E /* Pods-Swift_4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_4.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_4/Pods-Swift_4.release.xcconfig"; sourceTree = "<group>"; };
+		2E340872831CA5A0AC3CC260 /* Pods-Swift_4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_4/Pods-Swift_4.debug.xcconfig"; sourceTree = "<group>"; };
+		E952F6581F1717EF0093891A /* TestNetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNetViewController.swift; sourceTree = "<group>"; };
+		E952F65C1F1726320093891A /* Swift_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_4.swift; sourceTree = "<group>"; };
+		E9BA5CB11F15FEAC004383AD /* TestGrammarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGrammarViewController.swift; sourceTree = "<group>"; };
 		E9F6D2E71F138510005A0551 /* Swift_4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F6D2EA1F138510005A0551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F6D2EC1F138510005A0551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		E9F6D3061F138510005A0551 /* Swift_4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F6D30A1F138510005A0551 /* Swift_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_4UITests.swift; sourceTree = "<group>"; };
 		E9F6D30C1F138510005A0551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F6D31C1F14D7A2005A0551 /* TestUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE710549142522F68D509BA /* Pods_Swift_4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0484333CA65A98D9077E043E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0836332C9548D0C10164CE65 /* Pods_Swift_4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		084269F6F1BD6F930D2D7644 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E340872831CA5A0AC3CC260 /* Pods-Swift_4.debug.xcconfig */,
+				1E9A40D772DA5A00AA7F776E /* Pods-Swift_4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E9F6D2DE1F138510005A0551 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				E9F6D2FE1F138510005A0551 /* Swift_4Tests */,
 				E9F6D3091F138510005A0551 /* Swift_4UITests */,
 				E9F6D2E81F138510005A0551 /* Products */,
+				084269F6F1BD6F930D2D7644 /* Pods */,
+				0484333CA65A98D9077E043E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +135,10 @@
 				E9F6D2F11F138510005A0551 /* Assets.xcassets */,
 				E9F6D2F31F138510005A0551 /* LaunchScreen.storyboard */,
 				E9F6D2F61F138510005A0551 /* Info.plist */,
+				E9F6D31C1F14D7A2005A0551 /* TestUIViewController.swift */,
+				E9BA5CB11F15FEAC004383AD /* TestGrammarViewController.swift */,
+				E952F6581F1717EF0093891A /* TestNetViewController.swift */,
+				E952F65C1F1726320093891A /* Swift_4.swift */,
 			);
 			path = Swift_4;
 			sourceTree = "<group>";
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9F6D30F1F138510005A0551 /* Build configuration list for PBXNativeTarget "Swift_4" */;
 			buildPhases = (
+				AA75ED0CB6F1C69DDDE9A4B2 /* [CP] Check Pods Manifest.lock */,
 				E9F6D2E31F138510005A0551 /* Sources */,
 				E9F6D2E41F138510005A0551 /* Frameworks */,
 				E9F6D2E51F138510005A0551 /* Resources */,
+				D7CAC5487EFC63F8CE2BF79D /* [CP] Embed Pods Frameworks */,
+				580C92DD2E66C4AE2A86E2C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,12 +290,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		580C92DD2E66C4AE2A86E2C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift_4/Pods-Swift_4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA75ED0CB6F1C69DDDE9A4B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7CAC5487EFC63F8CE2BF79D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift_4/Pods-Swift_4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E9F6D2E31F138510005A0551 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9BA5CB21F15FEAC004383AD /* TestGrammarViewController.swift in Sources */,
 				E9F6D2ED1F138510005A0551 /* ViewController.swift in Sources */,
+				E952F6591F1717EF0093891A /* TestNetViewController.swift in Sources */,
+				E9F6D31D1F14D7A2005A0551 /* TestUIViewController.swift in Sources */,
+				E952F65D1F1726320093891A /* Swift_4.swift in Sources */,
 				E9F6D2EB1F138510005A0551 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,9 +508,11 @@
 		};
 		E9F6D3101F138510005A0551 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E340872831CA5A0AC3CC260 /* Pods-Swift_4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift_4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jieming.Swift-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -430,9 +523,11 @@
 		};
 		E9F6D3111F138510005A0551 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9A40D772DA5A00AA7F776E /* Pods-Swift_4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Swift_4/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jieming.Swift-4";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +613,7 @@
 				E9F6D3111F138510005A0551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9F6D3121F138510005A0551 /* Build configuration list for PBXNativeTarget "Swift_4Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +622,7 @@
 				E9F6D3141F138510005A0551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9F6D3151F138510005A0551 /* Build configuration list for PBXNativeTarget "Swift_4UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +631,7 @@
 				E9F6D3171F138510005A0551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
