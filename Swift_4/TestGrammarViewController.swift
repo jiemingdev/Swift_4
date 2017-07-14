@@ -345,8 +345,8 @@ class TestGrammarViewController: UIViewController {
         let d : String? = "haha"
         print(d!)
         // 不对e赋值时，必须使用var定义 否则没有初始化 也没有赋值，无法使用
-        var e : String?
-        print(e!)
+//        var e : String?
+//        print(e!)
         print(c ?? a)
         
         // 逻辑运算就不多说了，多用于二进制运算，用的不多
