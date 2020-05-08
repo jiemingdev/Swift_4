@@ -33,9 +33,9 @@ class TestGrammarViewController: UIViewController {
     func addAlertLabel() {
         let label = UILabel(frame: CGRect(x: 10, y: 100, width: kScreenWidth - 20, height: 100))
         label.text = "请看代码和打印内容"
+        label.textColor = .yellow
         label.numberOfLines = 0
         label.textAlignment = .center
-        label.textColor = .red
         self.view.addSubview(label)
     }
     
