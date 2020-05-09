@@ -20,7 +20,6 @@ class TestGrammarViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.title = "Grammar"
         self.view.backgroundColor = .white
-        
         self.addAlertLabel()
         self.testString()
         self.testArray()
@@ -28,9 +27,19 @@ class TestGrammarViewController: UIViewController {
         self.testPrint()
         self.testConditionalStatement()
         self.testOperator()
+        self.addALabel()
     }
     
     func addAlertLabel() {
+        let label = UILabel(frame: CGRect(x: 10, y: 100, width: kScreenWidth - 20, height: 100))
+        label.text = "请看代码和打印内容"
+        label.textColor = .yellow
+        label.numberOfLines = 0
+        label.textAlignment = .center
+        self.view.addSubview(label)
+    }
+
+    func addALabel() {
         let label = UILabel(frame: CGRect(x: 10, y: 100, width: kScreenWidth - 20, height: 100))
         label.text = "请看代码和打印内容"
         label.textColor = .yellow
